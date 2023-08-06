@@ -1,0 +1,36 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+
+}
+body{
+  background: radial-gradient(circle at center, #998585 , #0c0d0d);
+  
+}
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:700px;
+ 
+}
+#Hours,#mintue,#second,#am-to-pm{
+  color:rgb(91, 219, 146);
+  font-size:4rem;
+ 
+}
+.colon{
+  color:black;
+  font-size:5rem;
+}
+@media only screen and (max-width:500px){
+  #Hours,#mintue,#second,#am-to-pm{
+    color:rgb(91, 219, 146);
+    font-size:3rem;
+  } 
+  .colon{
+    color:black;
+    font-size:3rem;
+  }
+}
